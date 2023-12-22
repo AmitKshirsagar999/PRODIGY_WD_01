@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#logo:hover{
+    box-shadow:2px 2px 3px black;
+}
+
+
+#email{
+    margin-right: 10px;
+}
+
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#59C3D8; 
+    z-index: 1000;
+}
+
+#top {
+    background-color:#EFCB1A;
+    color: black;
+    padding: 10px;
+    border:2px solid black;
+}
+
+button:hover{
+    color: black;
+    background-color: red;
+    box-shadow:2px 2px 3px black;
+}
+
+button{
+    height: 28px;
+    background-color:red;
+    color:white;
+    border-radius: 25px;
+}
+
+button:active{
+    background-color: green;
+    color:white;
+}
+
+input[type="mailing"]{
+    width:250px;
+    height: 25px;
+    border:3px solid black;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    background-color:silver;
+    transition:hover 1s ease-in 1s;
+
+}
+
+input[type="mailing"]:hover{
+    box-shadow: 2px 2px 3px black;
+    color: black;
+    background-color: white;
+}
+
+input[type="search"]:hover{
+    box-shadow: 2px 2px 3px black;
+    color: black;
+    background-color: white;
+}
+
+input[type="search"] {
+    height: 28px;
+    width: 260px;
+    padding: 5px; 
+    border: 3px solid black; 
+    border-radius: 5px;
+    font-weight: bold;
+    color:black;
+    background-color: silver;
+}
+
+
+.search-box {
+    position: relative;
+}
+
+h1{
+    color: purple;
+    font-size: 25px;
+    font-weight: bold;
+    text-align:inherit;
+    width:300px;
+   
+} 
+
+
+
+p{
+    font-size:14px;
+    color:black;
+}
+
+
+.image-container {
+    margin-top:-240px;
+    display:inline-block;
+    vertical-align: top; 
+    margin-left: 480px; 
+    padding-left:0px;
+    margin-bottom: 100px;
+}
+
+.info{
+    
+    padding-right:0px;
+    margin-left: 20px;
+    margin-top: 30px;
+    height:250px;
+    display:inline-block;
+    text-align:inherit;
+}
+
+.subscription{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    margin-left:60px;
+    width:340px;
+    height:290px;
+    display:flex;
+    flex-direction: column;
+}
+
+#man{
+    margin-left: 150px;
+    margin-bottom:200px;
+    width:550px;
+    height: 340px;
+    vertical-align:bottom;
+   
+}
+
+img{
+    height: 25px;
+    width: 25px;
+}
+
+nav ul li {
+    margin-right: 20px;
+    margin-left: 30px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Aligns items to the left and right */
+}
+
+nav a{
+    align-self: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    transition: color 0.3s;
+    color:white;
+
+}
+
+a:hover{
+    color:white !important;
+
+}
+
+.content{
+    width: 87%;
+    height: 450px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: -200px;
+}
+
+.inner{
+    width:300px;
+    height: 90px;
+    color:green;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.course_wrap{
+    width:790px;
+    height: 250px;
+    display: inline-block;
+    margin-top:-130px;
+    margin-left: 350px;
+}
+
+.part1{
+    width:320px;
+    height:230px;
+    display: inline-block;
+    margin-right:20px;
+
+}
+
+.part2{
+    width:320px;
+    height:230px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#python{
+    background-color:blueviolet;
+    margin-top:2px;
+    width:230px;
+    height:28px;
+    border:2px solid black;
+    margin-bottom:12px;
+    margin-left:5px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#python:hover{
+    box-shadow:2px 2px 3px black;
+    background-color:forestgreen;
+}
+
+#cpp:hover{
+    box-shadow:2px 2px 3px black;
+    background-color:forestgreen;
+
+}
+
+#java:hover{
+    box-shadow:2px 2px 3px black;
+    background-color:forestgreen;
+
+}
+
+#html:hover{
+    box-shadow:2px 2px 3px black;
+    background-color:forestgreen;
+
+}
+
+#javascript:hover{
+    box-shadow:2px 2px 3px black;
+    background-color:forestgreen;
+
+}
+
+#css:hover{
+    box-shadow:2px 2px 3px black;
+    background-color:forestgreen;
+
+}
+
+
+#cpp{
+    background-color:blueviolet;
+    margin-top:2px;
+    width:230px;
+    height:28px;
+    border:2px solid black;
+    margin-bottom:12px;
+    margin-left:5px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#java{
+    background-color:blueviolet;
+    margin-top:2px;
+    width:230px;
+    height:28px;
+    border:2px solid black;
+    margin-bottom:12px;
+    margin-left:5px;
+    border-radius: 12px;
+    text-align: center;
+
+}
+
+#javascript{
+    background-color:blueviolet;
+    margin-top:2px;
+    width:230px;
+    height:28px;
+    border:2px solid black;
+    margin-bottom:12px;
+    margin-left:5px;
+    border-radius: 12px;
+    text-align: center;
+
+}
+
+#html{
+    background-color:blueviolet;
+    margin-top:2px;
+    width:230px;
+    height:28px;
+    border:2px solid black;
+    margin-bottom:12px;
+    margin-left:5px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#css{
+    background-color:blueviolet;
+    margin-top:2px;
+    width:230px;
+    height:28px;
+    border:2px solid black;
+    margin-bottom:12px;
+    margin-left:5px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#py{
+    color: black;
+    text-decoration: none;
+}
+
+#cp{
+    color: black;
+    text-decoration: none;
+}
+
+#ja{
+    color: black;
+    text-decoration: none;
+}
+
+#jasc{
+    color: black;
+    text-decoration: none;
+}
+
+#ht{
+    color: black;
+    text-decoration: none;
+}
+#cs{
+    color: black;
+    text-decoration: none;
+}
+
+#collection{
+    color: black;
+    text-decoration: none;
+    transition:hover 1s ease-in 1s;
+}
+
+#collection:hover{
+    text-shadow:2px 2px 3px black;
+    
+    
+}
